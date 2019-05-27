@@ -12,7 +12,7 @@ import { SlackModule } from '@romainmarecat/ngx-slack-notification';
 
 @NgModule({
   imports: [
-    SlackModule.forRoot('YOUR-SLACK-WEBHOOKS')
+    SlackModule.forRoot('HTTPS://YOUR-SLACK-WEBHOOKS')
   ]
 })
 

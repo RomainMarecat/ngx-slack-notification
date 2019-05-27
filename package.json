@@ -1,6 +1,6 @@
 {
     "name": "@romainmarecat/ngx-slack-notification",
-    "version": "0.0.9",
+    "version": "1.0.0",
     "author": "Romain Marecat <romain.marecat@gmail.com>",
     "private": false,
     "main": "./release/romainmarecat-ngx-slack-notification.umd.js",
@@ -17,6 +17,7 @@
         "ngx",
         "slack",
         "notification",
+        "message",
         "ng",
         "alert",
         "hooks",
@@ -27,6 +28,7 @@
         "angular 8"
     ],
     "license": "MIT",
+    "homepage": "https://github.com/romainmarecat/ngx-slack-notification#readme",
     "bugs": {
         "url": "https://github.com/romainmarecat/ngx-slack-notification/issues"
     },
