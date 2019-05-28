@@ -1,4 +1,7 @@
-# Slack
+# NGX Slack Notification
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/e4829d29383bae5fcd96/maintainability)](https://codeclimate.com/github/RomainMarecat/ngx-slack-notification/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e4829d29383bae5fcd96/test_coverage)](https://codeclimate.com/github/RomainMarecat/ngx-slack-notification/test_coverage)
 
 ## Installation 
 
