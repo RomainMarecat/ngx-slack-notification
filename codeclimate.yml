@@ -1,4 +1,4 @@
----
+version: "2"
 engines:
   duplication:
     enabled: true
@@ -8,6 +8,18 @@ engines:
 exclude_paths:
   - ".github"
   - "release"
+  - "test.ts"
+  - "config/"
+  - "db/"
+  - "dist/"
+  - "features/"
+  - "**/node_modules/"
+  - "script/"
+  - "**/spec/"
+  - "**/test/"
+  - "**/tests/"
+  - "**/vendor/"
+  - "**/*.d.ts"
 ratings:
   paths:
     - "src/**.ts"
