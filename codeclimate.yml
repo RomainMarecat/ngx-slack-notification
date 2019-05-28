@@ -1,0 +1,13 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - javascript
+exclude_paths:
+  - ".github"
+  - "release"
+ratings:
+  paths:
+    - "src/**.ts"
