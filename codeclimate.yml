@@ -6,12 +6,9 @@ engines:
       languages:
         - javascript
 exclude_paths:
-  - ".github"
-  - "release"
-  - "test.ts"
-  - "config/"
-  - "db/"
-  - "dist/"
+  - ".github/"
+  - "release/"
+  - "src/test.ts"
   - "features/"
   - "**/node_modules/"
   - "script/"
