@@ -1,11 +1,13 @@
-import { InjectionToken, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { InjectionToken, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SlackNotificationService } from './slack-notification.service';
 
+// Injection Token URL
 export const SLACK_URL_TOKEN = new InjectionToken<string>('slackUrl');
 
+// AOT factory function
 export function createNotificationFactory(httpClient: HttpClient, slackUrl: string) {
   return new SlackNotificationService(httpClient, slackUrl);
 }

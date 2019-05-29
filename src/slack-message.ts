@@ -19,6 +19,7 @@ export interface SlackMessage {
   /**
    * Send a direct message to user or on a channel
    * example :
+   *
    * "channel": "#public-channel"
    * "channel": "#dev"
    *
@@ -29,5 +30,8 @@ export interface SlackMessage {
    */
   channel?: string;
 
+  /**
+   * Another keys to send if it's exist in slack api
+   */
   [key: string]: any;
 }

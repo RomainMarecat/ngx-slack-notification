@@ -27,11 +27,12 @@ describe('SlackNotificationService', () => {
   }));
 
 
-  it('should send message and call send Message', inject([SlackNotificationService], (service: SlackNotificationService) => {
-    service.notify({text: 'Hello World'});
+  it('should send message and call send Message',
+    inject([SlackNotificationService], (service: SlackNotificationService) => {
+      service.notify({text: 'Hello World'});
 
-    expect(service).toBeTruthy();
-  }));
+      expect(service).toBeTruthy();
+    }));
 
 
   it('should send notification with http', inject([SlackNotificationService], (service: SlackNotificationService) => {
