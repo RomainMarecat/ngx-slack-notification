@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('@angular/core'), require('@angular/common'), require('@angular/common/http'), require('@angular/forms')) :
-    typeof define === 'function' && define.amd ? define('@romainmarecat/ngx-slack-notification', ['exports', 'rxjs', '@angular/core', '@angular/common', '@angular/common/http', '@angular/forms'], factory) :
-    (factory((global.romainmarecat = global.romainmarecat || {}, global.romainmarecat['ngx-slack-notification'] = {}),global.rxjs,global.ng.core,global.ng.common,global.ng.common.http,global.ng.forms));
-}(this, (function (exports,rxjs,i0,common,i1,forms) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('@angular/common'), require('@angular/common/http'), require('@angular/core'), require('@angular/forms')) :
+    typeof define === 'function' && define.amd ? define('@romainmarecat/ngx-slack-notification', ['exports', 'rxjs', '@angular/common', '@angular/common/http', '@angular/core', '@angular/forms'], factory) :
+    (factory((global.romainmarecat = global.romainmarecat || {}, global.romainmarecat['ngx-slack-notification'] = {}),global.rxjs,global.ng.common,global.ng.common.http,global.ng.core,global.ng.forms));
+}(this, (function (exports,rxjs,common,i1,i0,forms) { 'use strict';
 
     /**
      * @fileoverview added by tsickle
@@ -12,17 +12,27 @@
         function MockSlackNotificationService() {
         }
         /**
+         * Mock void function
+         */
+        /**
+         * Mock void function
          * @return {?}
          */
         MockSlackNotificationService.prototype.notify = /**
+         * Mock void function
          * @return {?}
          */
             function () {
             };
         /**
+         * Mock an Observable of success callback
+         */
+        /**
+         * Mock an Observable of success callback
          * @return {?}
          */
         MockSlackNotificationService.prototype.sendNotification = /**
+         * Mock an Observable of success callback
          * @return {?}
          */
             function () {
@@ -69,6 +79,7 @@
          * @return {?}
          */
             function (message) {
+                // Add custom header and charset UTF-8
                 /** @type {?} */
                 var headers = new i1.HttpHeaders()
                     .set('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
@@ -116,8 +127,10 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
+    // Injection Token URL
     /** @type {?} */
     var SLACK_URL_TOKEN = new i0.InjectionToken('slackUrl');
+    // AOT factory function
     /**
      * @param {?} httpClient
      * @param {?} slackUrl

@@ -1,5 +1,5 @@
-import { InjectionToken } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { InjectionToken } from '@angular/core';
 import { SlackNotificationService } from './slack-notification.service';
 export declare const SLACK_URL_TOKEN: InjectionToken<string>;
 export declare function createNotificationFactory(httpClient: HttpClient, slackUrl: string): SlackNotificationService;

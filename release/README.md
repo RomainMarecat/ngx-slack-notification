@@ -1,5 +1,5 @@
-# Slack
-
+# NGX Slack Notification
+[![Maintainability](https://api.codeclimate.com/v1/badges/4fa7ca6b97de97497658/maintainability)](https://codeclimate.com/github/RomainMarecat/ngx-slack-notification/maintainability)
 ## Installation 
 
 ```npm i --save @romainmarecat/ngx-slack-notification```

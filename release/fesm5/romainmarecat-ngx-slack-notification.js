@@ -1,7 +1,7 @@
 import { of } from 'rxjs';
-import { Inject, Injectable, InjectionToken, NgModule, defineInjectable, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpHeaders, HttpClientModule } from '@angular/common/http';
+import { Inject, Injectable, defineInjectable, inject, InjectionToken, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 /**
@@ -17,17 +17,27 @@ var MockSlackNotificationService = /** @class */ (function () {
     function MockSlackNotificationService() {
     }
     /**
+     * Mock void function
+     */
+    /**
+     * Mock void function
      * @return {?}
      */
     MockSlackNotificationService.prototype.notify = /**
+     * Mock void function
      * @return {?}
      */
     function () {
     };
     /**
+     * Mock an Observable of success callback
+     */
+    /**
+     * Mock an Observable of success callback
      * @return {?}
      */
     MockSlackNotificationService.prototype.sendNotification = /**
+     * Mock an Observable of success callback
      * @return {?}
      */
     function () {
@@ -74,6 +84,7 @@ var SlackNotificationService = /** @class */ (function () {
      * @return {?}
      */
     function (message) {
+        // Add custom header and charset UTF-8
         /** @type {?} */
         var headers = new HttpHeaders()
             .set('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
@@ -119,8 +130,10 @@ var SlackNotificationService = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
+// Injection Token URL
 /** @type {?} */
 var SLACK_URL_TOKEN = new InjectionToken('slackUrl');
+// AOT factory function
 /**
  * @param {?} httpClient
  * @param {?} slackUrl

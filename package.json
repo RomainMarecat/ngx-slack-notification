@@ -1,6 +1,6 @@
 {
     "name": "@romainmarecat/ngx-slack-notification",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Romain Marecat <romain.marecat@gmail.com>",
     "private": false,
     "main": "./release/romainmarecat-ngx-slack-notification.umd.js",
@@ -37,9 +37,9 @@
         "url": "git+https://github.com/romainmarecat/ngx-slack-notification.git"
     },
     "peerDependencies": {
-        "@angular/common": "^7.2.0",
-        "@angular/core": "^7.2.0",
-        "@angular/http": "^7.2.0",
-        "@angular/forms": "^7.2.0"
+        "@angular/common": "^8.0.0",
+        "@angular/core": "^8.0.0",
+        "@angular/http": "^8.0.0",
+        "@angular/forms": "^8.0.0"
     }
 }
